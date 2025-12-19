@@ -9,7 +9,7 @@ let package = Package(
         .macOS(.v13),
         .tvOS(.v16),
         .watchOS(.v9),
-        .visionOS(.v1)
+        .visionOS(.v26)
     ],
     products: [
         .library(name: "Flow", targets: ["Flow"])
